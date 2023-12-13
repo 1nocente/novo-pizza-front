@@ -1,0 +1,144 @@
+body{
+    background: linear-gradient(180deg, var(--cor-principal) -50%, var(--cor-texto)100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    color: var(--cor-texto);
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 24px;
+}
+header .profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+header .profile img{
+    height: 48px;
+}
+header .search{
+    background-color: var(--cor-texto);
+    padding: 8px 12px;
+    border-radius: 8px;
+    height: 49px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+header .search input{
+    width: 90%;
+}
+header .search img{
+    height: 24px;
+    cursor: pointer;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-left: 24px;
+}
+main h2{
+    font-size: 15px;
+    text-shadow: 0.1em 0.01em #333;
+}
+main .categories, .favoritePizza{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+/* ✿ */
+main .categories div{
+    display: flex;
+    gap: 12px;
+}
+main .categories div img{
+    background-color: var(--cor-iconHome);
+    padding: 12px;
+    border-radius: 4px;
+    box-shadow: 0.1em 0.01em #8f8686;
+    cursor: pointer;
+    transition: .2s;
+}
+main .categories div img:hover{
+    background-color: var(--cor-iconHomeHover);
+}
+
+main .favoritePizza div{
+    display: flex;
+    overflow-x: scroll;
+    gap: 12px;
+}
+main .recommended div{
+    display: flex;
+    overflow-x: scroll;
+    gap: 12px;
+}
+main .favoritePizza .pizza{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 100px;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 12px;
+}
+main .recommended .pizza{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 100px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    font-size: 12px;
+}
+.pizza1{
+    background-image: url(../img/Home/pizza1.webp);
+}
+.pizza2{
+    background-image: url(../img/Home/pizza2.webp);
+}
+.Info{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    bottom: 0;
+    transform: translateY(75%);
+    transition: 1s;
+    padding: 0px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.value{
+    background-color: var(--cor-iconHome);
+    width: max-content;
+    padding: 2px 8px;
+    border-radius: 12px;
+    margin: 6px;
+}
+.content{
+    padding: 4px 8px;
+    background-color: #0009;
+    border-radius: 0px 10px 0px 10px;
+    height: 40px;
+}
+.pizza:hover > .Info {
+    transform: translateY(15%);
+}
+
+.pizza{
+}
+

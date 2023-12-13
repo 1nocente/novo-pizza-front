@@ -1,0 +1,86 @@
+body{
+    background-image: url(../img/Background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 24px;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    color: var(--cor-texto);
+}
+
+header{
+    height: 150px;
+}
+.conteudo-conteiner h1{
+    width: 257px;
+}
+.conteudo-conteiner p{
+    width: 311px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
+}
+.forgotPassword{
+    cursor: pointer;
+}
+.login-conteiner{
+    width: 283px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.parte1{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.parte1 div{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    border-bottom: 1.6px solid var(--cor-texto);
+}
+input{
+    padding: 2px 4px;
+}
+.placeholder::placeholder{
+    color: white;
+    font-size: 16px;
+}
+.parte2{
+    width: 300px;
+}
+.parte2 div{
+    display: flex;
+    height: 32px;
+    align-items: end;
+    justify-content: end;
+} 
+.parte2 div p{
+    transition: .1s;
+}
+.parte2 div p:hover{
+    color: var(--cor-principal);
+} 
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+footer h2{
+    text-shadow: 0.1em 0.01em #333;
+    transition: .2s;
+}
+footer h2:hover{
+    transform: scale(.92);
+}

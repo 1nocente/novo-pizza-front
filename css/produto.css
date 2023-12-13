@@ -1,0 +1,64 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    height: 26vh;
+    background-image: url(../img/Produto/pizza4\ 1.svg);
+    padding: 24px 18px;
+}
+.white{
+    background-color: white;
+    width: 100vw;
+    height: 64px;
+    position: absolute;
+    left: 0;
+    top: 210px;
+    border-radius: 32px 32px 0px 0px ;
+
+}
+main{
+    padding: 39px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+main .description .title{
+    display: flex;
+    justify-content: space-between;
+}
+main .title h1{
+    font-size: 24px;
+    width: 213px;
+}
+main h2{
+    color: #23CB98;
+}
+
+.comment .title{
+    display: flex;
+    gap: 8px;
+    padding-bottom: 12px;
+}
+
+.com{
+    background-color: #F5F5F5;
+    padding: 12px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+.part1{
+    display: flex;
+    justify-content: space-between;
+}
+.part1 .sub{
+    display: flex;
+    gap: 6px;
+}

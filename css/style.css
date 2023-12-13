@@ -1,0 +1,33 @@
+body{
+    background-image: url(../img/Background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 24px;
+    height: 110vh;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    height: 150px;
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 60vh;
+    gap: 100px;
+}
+.conteudo-container{
+    color: var(--cor-texto);
+    width: 257px;
+}
+.conteudo-container h1{
+    width: 230px;
+}
+.conteudo-container p{
+    width: 310px;
+}

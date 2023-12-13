@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/root.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/botao.css">
+    <link rel="icon" href="../img/Icon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <!-- Adicione a linha abaixo para incluir o seu script JavaScript -->
+    <script src="../login.js"></script>
+
+    <title>Login</title>
+</head>
+<body>
+    <header> <img src="../img/Logo.webp" alt="logo Pizza Tonny"></header>
+    <main>
+        <div class="conteudo-conteiner">
+            <h1>Acesse a sua conta</h1>
+            <p>O que você está esperando para saborear as mais deliciosas pizzas e sobremesas da região?</p>
+        </div>
+        <div class="login-conteiner">
+           <div class="parte1">
+                <div>
+                    <img src="../img/Login/Email.webp" alt="Icone Email">
+                    <!-- Adicione um id ao input para facilitar a referência no JavaScript -->
+                    <input id="email" class="placeholder" placeholder="Seu e-mail aqui" type="email">
+                </div>
+                <div>
+                    <img src="../img/Login/Lock.webp" alt="Icone Cadeado">
+                    <!-- Adicione um id ao input para facilitar a referência no JavaScript -->
+                    <input id="senha" class="placeholder" placeholder="Sua senha" type="password">
+                </div>
+           </div>
+           <div class="parte2">
+                <!-- Altere a tag <a> para chamar a função validarFormulario() no clique do botão -->
+                <button class="botao" onclick="validarFormulario()">ENTRAR</button>
+                <div><p class="forgotPassword">Esqueci a senha</p></div>
+           </div>
+        </div>
+       
+    </main>
+    <footer>
+        <p>Ainda não tem uma conta?</p>
+       <a href="./conta.html"><h2>Criar Conta</h2></a>
+    </footer>
+</body>
+</html>
